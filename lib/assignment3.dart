@@ -21,26 +21,11 @@ class Assignment3 extends StatelessWidget {
       drawer: Drawer(
         child: Column(
           children: [
-            Container(
-              width: double.infinity,
-              color: Colors.indigo,
-              padding: const EdgeInsets.fromLTRB(16, 60, 16, 20),
-              child: const Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  CircleAvatar(radius: 30, child: Icon(Icons.person, size: 32)),
-                  SizedBox(height: 12),
-                  Text(
-                    'ratin',
-                    style: TextStyle(color: Colors.white, fontSize: 20),
-                  ),
-                  Text(
-                    'ratin07@gmail.com',
-                    style: TextStyle(color: Colors.white70),
-                  ),
-                ],
+            UserAccountsDrawerHeader(
+              decoration: BoxDecoration(color: Colors.blue),
+              accountName: Text('ratin'),
+              accountEmail: Text('ratin07@gmail.com'),
               ),
-            ),
             ListTile(
               leading: const Icon(Icons.home),
               title: const Text('Home'),
