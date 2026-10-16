@@ -26,8 +26,8 @@ class Homepage extends StatelessWidget{
           children: [
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(color: Colors.blue),
-              accountName: Text('Fardinn'),
-              accountEmail: Text('yousufislam1102@gmail.com'),
+              accountName: Text('ratin'),
+              accountEmail: Text('ratin07@gmail.com'),
               ),
               ListTile(
                 trailing: Icon(Icons.home),

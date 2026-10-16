@@ -194,7 +194,7 @@ class Assignment3 extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        tooltip: 'Add to cart',
+        tooltip: 'Add to Cart',
         child: const Icon(Icons.add),
       ),
     );
